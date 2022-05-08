@@ -45,7 +45,7 @@ const Blog = () => {
 
           The JOSE  header contains the type of token — JWT in this case — and the signing algorithm.
 
-          The payload contains the claims. This is displayed as a JSON string, usually containing no more than a dozen fields to keep the JWT compact. This information is typically used by the server to verify that the user has permission to perform the action they are requesting.</p>
+          The payload contains the claims. This is displayed as a JSON string, usually containing no more than a dozen fields to keep the JWT compact. This information is typically used by the server to verify that the user has permission to perform the action.</p>
       </div>
     </div>
   );
