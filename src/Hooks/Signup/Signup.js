@@ -13,8 +13,7 @@ import Sociallogin from '../Login/Sociallogin';
 
 
 const Signup = () => {
-  const [signInWithGoogle, user2, loading2, error2] = useSignInWithGoogle(auth);
-  const [signInWithGithub, user1, loading1, error1] = useSignInWithGithub(auth);
+
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [confirm, setConfirm] = useState('')
@@ -82,7 +81,7 @@ const Signup = () => {
     await updateProfile({ displayName: name });
     navigate('/')
     toast("please check your email for verification")
-    console.log(user);
+
   }
 
   useEffect(() => {
@@ -92,10 +91,10 @@ const Signup = () => {
   }, [hookerror])
   const location = useLocation()
   let from = location.state?.from?.pathname || "/";
-  if (user || user1 || user2) {
+  if (user) {
     navigate(from)
   }
-  if (loading || loading1 || loading2) {
+  if (loading) {
     return <Loading></Loading>
   }
   return (
