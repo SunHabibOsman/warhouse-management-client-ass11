@@ -40,7 +40,7 @@ const Additem = () => {
     })
       .then((response) => response.json())
       .then((json) => {
-        toast('Item Added on site')
+        toast('Item Added on site go to my item or manage')
 
       });
 
