@@ -8,7 +8,7 @@ import './Add.css'
 const Additem = () => {
   const [user] = useAuthState(auth)
   const navigate = useNavigate()
-  console.log(user.email);
+
 
   const handleSubmit = (event) => {
 
@@ -40,8 +40,8 @@ const Additem = () => {
     })
       .then((response) => response.json())
       .then((json) => {
-        toast('Item Added ')
-        console.log(json)
+        toast('Item Added on site')
+
       });
 
 
