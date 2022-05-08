@@ -80,7 +80,7 @@ const Signup = () => {
     await createUserWithEmailAndPassword(email, confirm)
     await updateProfile({ displayName: name });
     navigate('/')
-    toast("please check your email for verification")
+    toast("check your email for verification")
 
   }
 
