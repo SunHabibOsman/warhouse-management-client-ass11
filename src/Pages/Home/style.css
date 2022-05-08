@@ -5,3 +5,36 @@
 .carusel-sl {
   width: 100% !important;
 }
+
+.linkstock {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-caption {
+  margin: auto
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(53, 51, 51, 0.7);
+}
+
+@media screen and (max-width: 480px) {
+  .stock {
+    flex-direction: column !important;
+    margin-top: 3em !important;
+
+  }
+
+  .stock1 {
+    padding: 0 !important;
+    padding-left: 0;
+  }
+}

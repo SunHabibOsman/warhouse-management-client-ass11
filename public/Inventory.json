@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Silver PC",
+    "price": "120",
+    "quantity": "5",
+    "supplier": "Sufia",
+    "description": "This pc anyone can use for there business .",
+    "img": "https://i.ibb.co/JcfctPz/martin-katler-fpji-Q8xa-G6-M-unsplash.jpg"
+  },
+  {
+    "name": "Professional PC",
+    "price": "130",
+    "quantity": "20",
+    "supplier": "Arafat",
+    "description": "This pc can use for professional business .",
+    "img": "https://i.ibb.co/vJ9v4L9/ella-don-0oq-Mvhc1ntw-unsplash.jpg"
+  },
+  {
+    "name": "Gold PC",
+    "price": "150",
+    "quantity": "10",
+    "supplier": "Ibrahim",
+    "description": "this pc have very popular with 32GB Ram and SSD.",
+    "img": "https://i.ibb.co/NNLVM9J/andy-holmes-x-A26xeb-Y3dw-unsplash.jpg"
+  },
+  {
+    "name": "Premium PC",
+    "price": "180",
+    "quantity": "10",
+    "supplier": "Shuvo",
+    "description": "This pc have all kind of equipment for use to make anything.",
+    "img": "https://i.ibb.co/mTfgx3T/andre-tan-f-GEEJ7-Z8c-IA-unsplash.jpg"
+  },
+  {
+    "name": "Dragon PC",
+    "price": "150",
+    "quantity": "40",
+    "supplier": "Habib",
+    "description": "This pc have 16GB RAM and 2Gb Graphics Card.",
+    "img": "https://i.ibb.co/BfYx6Xw/balkouras-nicos-nc-OQx-Ze8-Krw-unsplash.jpg"
+  },
+  {
+    "name": "Dark PC",
+    "price": "250",
+    "quantity": "20",
+    "supplier": "Kaji Mostofa",
+    "description": "This PC have 32GB RAM and 6GB Graphics Card",
+    "img": "https://i.ibb.co/hKM3f6J/computer5.jpg"
+  }
+]
